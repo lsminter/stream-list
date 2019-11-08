@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Add your favorite streamers here!
         </p>
         <a
           className="App-link"
@@ -18,9 +18,18 @@ function App() {
         >
           Learn React
         </a>
+        <form>
+          <label>
+            Streamer's link:
+            <input type="text" name="name" placeholder="https://twitch.tv/katevolved" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
       </header>
     </div>
   );
 }
+
+
 
 export default App;
